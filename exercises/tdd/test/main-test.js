@@ -9,8 +9,8 @@ suite("Account",function() {
   })
 
   test("should allow deposits",function() {
-    account.deposit(25)
-    assert.equal(account.balance(),75);
+    account.deposit(50)
+    assert.equal(account.balance(), 100);
   })
 
   test("should allow withdrawals",function() {
